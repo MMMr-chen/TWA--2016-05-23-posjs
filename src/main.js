@@ -11,8 +11,9 @@ function printInventory(inputs) {
             price : inputs[i].price,
             totalprice : inputs[i].price
             };
+            outputArray.push(item);
         }
-        outputArray.push(item);
+
     }
     printData(outputArray);
 }
